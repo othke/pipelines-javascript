@@ -15,7 +15,7 @@ steps:
   inputs:
     repository: $(imageName)
     command: build
-    Dockerfile: $(System.DefaultWorkingDirectory)/app/Dockerfile
+    Dockerfile: app/Dockerfile
 
 - task: Docker@2
   inputs:
